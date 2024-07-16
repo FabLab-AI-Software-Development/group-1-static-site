@@ -1,12 +1,16 @@
 {
   "name": "group-1-static-site",
   "version": "1.0.0",
+
+  "description": "This is group 1's static site. It is composed of Nelson, David, Austin, Angel, and Abdullah. This repo will be under construction as we make changes and learn coding together.",
+
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "description": ""
+
+  "license": "ISC"
+
 }
