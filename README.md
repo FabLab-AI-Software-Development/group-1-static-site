@@ -1,1 +1,0 @@
-This is group 1's static site. It is composed of Nelson, David, Austin, Angel, and Abdullah. This repo will be under construction as we make changes and learn coding together.
