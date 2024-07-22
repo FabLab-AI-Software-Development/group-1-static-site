@@ -9,12 +9,15 @@ function Home() {
 
 
   return( <div><h1>Home</h1>
+
   <MyForm></MyForm>
+
   <SearchButton onClick={() => setCount(count + 1)}></SearchButton>
   <p>Conducted {count} searches</p>
   </div>
   );
 }
+
   
 
 
