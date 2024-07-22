@@ -9,6 +9,7 @@ import NoPage from "./pages/NoPage";
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Angel from './pages/Angel';
 
 export default function NavBar() {
   return (
@@ -18,6 +19,7 @@ export default function NavBar() {
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="contact" element={<Contact />} />
+          <Route path="angel" element={<Angel/>} />
           <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>
