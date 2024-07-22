@@ -1,7 +1,7 @@
-
 import React, {useState, useEffect} from 'react';
 import SearchButton from '../components/SearchButton.jsx';
 import MyForm from '../components/form.jsx';
+
 
 function Home() {
 
@@ -9,7 +9,9 @@ function Home() {
 
 
   return( <div><h1>Home</h1>
-         <MyForm></MyForm></>
+
+  <MyForm></MyForm>
+
   <SearchButton onClick={() => setCount(count + 1)}></SearchButton>
   <p>Conducted {count} searches</p>
   </div>
