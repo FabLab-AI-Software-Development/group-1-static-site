@@ -62,3 +62,12 @@ model Hat{
 }
 
 // Add relation string later and overarching table
+model Top {
+  id Int @id @default(autoincrement())
+  name String
+  price Float
+  color String?
+  size String
+  sex String?
+  material String
+}
