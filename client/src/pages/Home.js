@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import SearchButton from '../components/SearchButton.jsx';
+import PantsButton from '../components/PantsButton.jsx';
 import MyForm from '../components/form.jsx';
 
 
@@ -10,7 +10,7 @@ function Home() {
 
   return( <div><h1>Home</h1>
   <MyForm></MyForm>
-  <SearchButton onClick={() => setCount(count + 1)}></SearchButton>
+  <PantsButton onClick={() => setCount(count + 1)}></PantsButton>
   <p>Conducted {count} searches</p>
   </div>
   );

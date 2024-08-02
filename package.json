@@ -9,8 +9,7 @@
     "start-client": "cd client && npm start",
     "install-all": "npm run install-api && npm run install-client",
     "install-api": "cd api && npm install",
-    "install-client": "cd client && npm install",
-    "intall-all": "concurrently \"npm run install-api\"  \"npm run install-client\""
+    "install-client": "cd client && npm install"
   },
   "keywords": [],
   "author": "",
@@ -20,6 +19,7 @@
     "concurrently": "^8.2.2"
   },
   "dependencies": {
-    "all": "^0.0.0"
+    "all": "^0.0.0",
+    "axios": "^1.7.3"
   }
 }
