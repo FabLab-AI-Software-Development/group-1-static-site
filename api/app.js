@@ -25,6 +25,7 @@ app.use("/api/v1/users", require("./routes/users"));
 app.use('/api/v1/openai', require("./routes/openai"));
 app.use('/api/v1/pants', require("./routes/pants"));
 app.use('/api/v1/hat', require("./routes/hat"));
+app.use('/api/v1/tops', require("./routes/tops"));
 
 
 module.exports = app;
