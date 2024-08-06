@@ -37,7 +37,8 @@ model Pants {
   size String
   sex String?
   material String
-  product_type String 
+  product_type String
+  embeddings Vector(300)
 }
 
 model Socks{
@@ -48,6 +49,7 @@ model Socks{
   size String 
   sex String? 
   material String 
+  embeddings Vector(300)
 }
 
 model Hat{
@@ -59,6 +61,7 @@ model Hat{
   sex String?
   material String
   product_type String
+  embeddings Vector(300)
 }
 
 // Add relation string later and overarching table
@@ -70,4 +73,5 @@ model Top {
   size String
   sex String?
   material String
+  embeddings Vector(300)
 }
