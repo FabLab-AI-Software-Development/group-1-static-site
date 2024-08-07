@@ -4,6 +4,8 @@ const dotenv = require("dotenv");
 const cors = require("cors");
 const morgan = require("morgan");
 dotenv.config({ path: ".env" });
+// const { main } = require('./controllers/embeddings.js')
+
 
 app.use(morgan("tiny"));
 app.use(express.json());
@@ -29,3 +31,5 @@ app.use('/api/v1/tops', require("./routes/tops"));
 
 
 module.exports = app;
+
+// main();
