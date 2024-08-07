@@ -1,5 +1,5 @@
 const app = require("./app");
-const { main } = require('./controllers/embeddings.js')
+// const { main } = require('./controllers/embeddings.js')
 
 const PORT = process.env.PORT || 5000;
 

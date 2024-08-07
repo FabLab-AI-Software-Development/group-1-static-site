@@ -11,11 +11,7 @@
 //     // database: new URL(process.env.DATABASE_URL).pathname.slice(1),
 //     // user: process.env.DATABASE_USER,
 //     // password: process.env.DATABASE_PASSWORD
-//     host: 'localhost',
-//     port: 5000,
-//     database: 'fablab',
-//     user: 'postgres',
-//     password: 1234
+
 
 // };
 
