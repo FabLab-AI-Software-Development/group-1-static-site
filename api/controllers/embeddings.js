@@ -3,6 +3,7 @@
 // const { checkEmbeddingValid } = require("./embeddings_utils.js");
 
 
+
 // const openai = new OpenAI({ apiKey: process.env.OPEN_API_KEY });
 
 // const pgEndpoint = {

@@ -8,7 +8,7 @@ function Home() {
   const [count, setCount] = useState(0);
 
 
-  return( <div><h1>Home</h1>
+  return( <div><h1>Find Pants!</h1>
   <MyForm></MyForm>
   <PantsButton onClick={() => setCount(count + 1)}></PantsButton>
   <p>Conducted {count} searches</p>

@@ -21,6 +21,7 @@
   "dependencies": {
     "all": "^0.0.0",
     "axios": "^1.7.3",
+    "git-filter-repo": "^0.0.30",
     "openai": "^4.55.1",
     "pg": "^8.12.0"
   }

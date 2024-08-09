@@ -4,7 +4,7 @@ const dotenv = require("dotenv");
 const cors = require("cors");
 const morgan = require("morgan");
 dotenv.config({ path: ".env" });
-// const { main } = require('./controllers/embeddings.js')
+// const  main  = require('./controllers/embeddings.js')
 
 
 app.use(morgan("tiny"));
